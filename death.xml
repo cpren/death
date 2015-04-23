@@ -7,21 +7,10 @@
       </block>
     </value>
     <next>
-      <block type="controls_whileUntil" id="41" inline="false">
-        <field name="MODE">UNTIL</field>
-        <value name="NUMBER">
-          <block type="logic_compare" id="61" inline="true">
-            <field name="OP">EQ</field>
-            <value name="A">
-              <block type="variables_get" id="48">
-                <field name="VAR">george</field>
-              </block>
-            </value>
-            <value name="B">
-              <block type="math_number" id="68">
-                <field name="NUM">5000</field>
-              </block>
-            </value>
+      <block type="controls_repeat" id="480" inline="true">
+        <value name="TIMES">
+          <block type="math_number" id="487">
+            <field name="NUM">4</field>
           </block>
         </value>
         <statement name="DO">
@@ -55,7 +44,7 @@
                                 </value>
                                 <value name="B">
                                   <block type="math_number" id="318">
-                                    <field name="NUM">1350</field>
+                                    <field name="NUM">995</field>
                                   </block>
                                 </value>
                               </block>
