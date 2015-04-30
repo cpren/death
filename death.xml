@@ -258,7 +258,4 @@
       </block>
     </next>
   </block>
-  <block type="math_number" id="411" x="-105" y="297">
-    <field name="NUM">0</field>
-  </block>
 </xml>
