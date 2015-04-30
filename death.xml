@@ -55,7 +55,7 @@
                                 </value>
                                 <value name="B">
                                   <block type="math_number" id="14">
-                                    <field name="NUM">100</field>
+                                    <field name="NUM">1000</field>
                                   </block>
                                 </value>
                               </block>
@@ -75,8 +75,8 @@
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="oled_drawtext" id="19">
-                                        <field name="TEXT">Goodbye George</field>
+                                      <block type="oled_linerect" id="281">
+                                        <field name="OBJECT">LINE</field>
                                       </block>
                                     </next>
                                   </block>
@@ -97,7 +97,7 @@
           <block type="controls_repeat" id="20" inline="true">
             <value name="TIMES">
               <block type="math_number" id="21">
-                <field name="NUM">12</field>
+                <field name="NUM">3</field>
               </block>
             </value>
             <statement name="DO">
@@ -110,27 +110,14 @@
                       </block>
                     </value>
                     <next>
-                      <block type="movement_left" id="202">
+                      <block type="movement_stutter" id="28">
                         <next>
-                          <block type="robot_delay" id="26" inline="true">
+                          <block type="robot_delay" id="29" inline="true">
                             <value name="DELAY">
-                              <block type="math_number" id="27">
+                              <block type="math_number" id="30">
                                 <field name="NUM">1150</field>
                               </block>
                             </value>
-                            <next>
-                              <block type="movement_stutter" id="28">
-                                <next>
-                                  <block type="robot_delay" id="29" inline="true">
-                                    <value name="DELAY">
-                                      <block type="math_number" id="30">
-                                        <field name="NUM">1150</field>
-                                      </block>
-                                    </value>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
                           </block>
                         </next>
                       </block>
@@ -141,7 +128,7 @@
             </statement>
             <next>
               <block type="variables_set" id="77" inline="true">
-                <field name="VAR">george</field>
+                <field name="VAR">Light</field>
                 <value name="VALUE">
                   <block type="math_number" id="87">
                     <field name="NUM">1</field>
@@ -155,7 +142,7 @@
                         <field name="OP">EQ</field>
                         <value name="A">
                           <block type="variables_get" id="185">
-                            <field name="VAR">george</field>
+                            <field name="VAR">Light</field>
                           </block>
                         </value>
                         <value name="B">
@@ -170,7 +157,7 @@
                         <field name="ACTION">ON</field>
                         <value name="LED">
                           <block type="variables_get" id="107">
-                            <field name="VAR">george</field>
+                            <field name="VAR">Light</field>
                           </block>
                         </value>
                         <next>
@@ -190,13 +177,13 @@
                                 </value>
                                 <next>
                                   <block type="variables_set" id="143" inline="true">
-                                    <field name="VAR">george</field>
+                                    <field name="VAR">Light</field>
                                     <value name="VALUE">
                                       <block type="math_arithmetic" id="150" inline="true">
                                         <field name="OP">ADD</field>
                                         <value name="A">
                                           <block type="variables_get" id="154">
-                                            <field name="VAR">george</field>
+                                            <field name="VAR">Light</field>
                                           </block>
                                         </value>
                                         <value name="B">
