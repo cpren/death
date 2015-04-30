@@ -92,16 +92,6 @@
                                             <next>
                                               <block type="oled_drawtext" id="392">
                                                 <field name="TEXT">O      O</field>
-                                                <next>
-                                                  <block type="multimedia_volume" id="460">
-                                                    <field name="VOLUME">HIGH</field>
-                                                    <next>
-                                                      <block type="multimedia_playwav" id="450">
-                                                        <field name="WAV">Hi</field>
-                                                      </block>
-                                                    </next>
-                                                  </block>
-                                                </next>
                                               </block>
                                             </next>
                                           </block>
