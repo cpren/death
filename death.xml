@@ -285,6 +285,9 @@
                                                             <next>
                                                               <block type="oled_drawtext" id="581">
                                                                 <field name="TEXT">Goodbye George. </field>
+                                                                <next>
+                                                                  <block type="movement_stop" id="312"></block>
+                                                                </next>
                                                               </block>
                                                             </next>
                                                           </block>
@@ -316,5 +319,4 @@
       </block>
     </next>
   </block>
-  <block type="movement_stop" id="312" x="-17" y="809"></block>
 </xml>
