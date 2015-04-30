@@ -239,7 +239,65 @@
                                       </block>
                                     </statement>
                                     <next>
-                                      <block type="movement_stop" id="312"></block>
+                                      <block type="oled_cleardisplay" id="535">
+                                        <next>
+                                          <block type="oled_setcursor" id="544" inline="true">
+                                            <value name="STARTX">
+                                              <block type="math_number" id="551">
+                                                <field name="NUM">10</field>
+                                              </block>
+                                            </value>
+                                            <value name="STARTY">
+                                              <block type="math_number" id="564">
+                                                <field name="NUM">10</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="oled_drawtext" id="573">
+                                                <field name="TEXT">Goodbye George. </field>
+                                                <next>
+                                                  <block type="oled_setcursor" id="574" inline="true">
+                                                    <value name="STARTX">
+                                                      <block type="math_number" id="575">
+                                                        <field name="NUM">20</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="STARTY">
+                                                      <block type="math_number" id="576">
+                                                        <field name="NUM">20</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="oled_drawtext" id="577">
+                                                        <field name="TEXT">Goodbye George. </field>
+                                                        <next>
+                                                          <block type="oled_setcursor" id="578" inline="true">
+                                                            <value name="STARTX">
+                                                              <block type="math_number" id="579">
+                                                                <field name="NUM">30</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="STARTY">
+                                                              <block type="math_number" id="580">
+                                                                <field name="NUM">30</field>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="oled_drawtext" id="581">
+                                                                <field name="TEXT">Goodbye George. </field>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
                                     </next>
                                   </block>
                                 </next>
@@ -258,4 +316,5 @@
       </block>
     </next>
   </block>
+  <block type="movement_stop" id="312" x="-17" y="809"></block>
 </xml>
