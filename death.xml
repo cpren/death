@@ -90,12 +90,8 @@
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="oled_drawnumber" id="362" inline="true">
-                                                <value name="NUMBER">
-                                                  <block type="math_number" id="369">
-                                                    <field name="NUM">6</field>
-                                                  </block>
-                                                </value>
+                                              <block type="oled_drawtext" id="392">
+                                                <field name="TEXT">O        O</field>
                                               </block>
                                             </next>
                                           </block>
@@ -120,7 +116,7 @@
           <block type="controls_repeat" id="20" inline="true">
             <value name="TIMES">
               <block type="math_number" id="21">
-                <field name="NUM">3</field>
+                <field name="NUM">10</field>
               </block>
             </value>
             <statement name="DO">
