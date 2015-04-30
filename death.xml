@@ -172,7 +172,7 @@
                                 <field name="ACTION">OFF</field>
                                 <value name="LED">
                                   <block type="variables_get" id="139">
-                                    <field name="VAR">george</field>
+                                    <field name="VAR">Light</field>
                                   </block>
                                 </value>
                                 <next>
